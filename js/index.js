@@ -7,9 +7,8 @@ var result = text + sum;
 function fibonachi(n) {
     var firsFib = [0, 1, 1];
     for (var i = 3; i <= n; i++) {
-        firsFib.push();
         var result = firsFib[i - 2] + firsFib[i - 1];
-        firsFib[i] = result;
+        firsFib.push(result);
         console.log(firsFib[i]);
 
     }
